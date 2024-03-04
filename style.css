@@ -46,3 +46,12 @@ footer {
     padding: 20px;
     text-align: center;
 }
+
+body {
+    background-image: url('images/your-background-image.jpg');
+    /* Замените 'your-background-image.jpg' на имя вашего фонового изображения */
+    background-size: cover;
+    /* Это свойство позволяет изображению занимать всю доступную область */
+    background-repeat: no-repeat;
+    /* Запрещаем повторение фонового изображения */
+}
