@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Resume</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Добавим иконки для GitHub и LinkedIn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
 
     <header>
-        <h1>Ваше имя</h1>
+        <h1>Glyeb Magazynov</h1>
         <nav>
             <ul>
                 <li><a href="#about">Обо мне</a></li>
@@ -26,12 +28,13 @@
     <main>
         <section id="about">
             <h2>Обо мне</h2>
-            <p>Добавьте здесь информацию о себе.</p>
+            <p>19.10.1986</p>
         </section>
 
         <section id="education">
             <h2>Образование</h2>
-            <p>Добавьте здесь информацию о вашем образовании.</p>
+            <p>Máster Programación y Desarrollo de Aplicaciones</p>
+            <p>Ediae, Camara de Granada, T-Systems</p>
         </section>
 
         <section id="experience">
@@ -41,13 +44,33 @@
 
         <section id="skills">
             <h2>Навыки</h2>
-            <p>Добавьте здесь информацию о ваших навыках.</p>
+            <p>Java, SQL, Git, GitHub</p>
         </section>
     </main>
 
+    <!-- Переносим этот блок в самый низ страницы -->
     <footer>
-        <p>Контактная информация и другие детали.</p>
+        <!-- Добавляем стили напрямую к иконкам -->
+        <a href="https://github.com/ZazRX8" target="_blank"><i class="fab fa-github"
+                style="font-size: 54px; color: black;"></i></a>
+        <a href="https://www.linkedin.com/in/gleb-magazynov/" target="_blank"><i class="fab fa-linkedin"
+                style="font-size: 54px; color: black;"></i></a>
     </footer>
+
+    <!-- Добавляем стили для блока footer -->
+    <style>
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #8A008A;
+            /* Темный оттенок мадженты */
+            color: #FFFFFF;
+            /* Белый цвет текста */
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
 
 </body>
 
