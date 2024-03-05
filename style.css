@@ -3,6 +3,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url('images/your-background-image.jpg');
+    /* Замените 'your-background-image.jpg' на имя вашего фонового изображения */
+    background-size: cover;
+    /* Это свойство позволяет изображению занимать всю доступную область */
+    background-repeat: no-repeat;
+    /* Запрещаем повторение фонового изображения */
 }
 
 header {
@@ -47,11 +53,23 @@ footer {
     text-align: center;
 }
 
-body {
-    background-image: url('images/your-background-image.jpg');
-    /* Замените 'your-background-image.jpg' на имя вашего фонового изображения */
-    background-size: cover;
-    /* Это свойство позволяет изображению занимать всю доступную область */
-    background-repeat: no-repeat;
-    /* Запрещаем повторение фонового изображения */
+/* Добавляем черную обводку вокруг каждой буквы в заголовке "Glyeb Magazynov" */
+h1 {
+    display: inline-block;
+}
+
+h1 {
+    -webkit-text-stroke: 2px black;
+    /* Для браузеров, основанных на Chromium (Chrome, Edge и др.) */
+    text-stroke: 2px black;
+    /* Общее свойство */
+    color: #fff;
+    /* Цвет текста */
+    font-size: 46px;
+    /* Замените значение на нужный вам размер */
+}
+
+header h1 {
+    font-family: 'Cooper Black', sans-serif;
+    /* Замените 'Montserrat' на название загруженного шрифта */
 }
